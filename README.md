@@ -36,4 +36,6 @@ If you wanted to add a tag to a task while creating it, just edit the Automator 
 
 ### Adding the task to a project
 If you want to add the task directly into a project (it will still be in your My Tasks as long as it's assigned to you), add the following to the curl command in the script (substituting the ID with your desired target project ID):
+```
 --data-urlencode \"projects=1180040680315281\"
+```
